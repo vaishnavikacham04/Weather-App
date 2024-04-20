@@ -1,0 +1,1 @@
+Want to know how hot or cold it is in any city? This project helps you find out! It uses special tools called APIs to get the temperature for you. Just type in the name of the city, and voila! You'll see the temperature right away.

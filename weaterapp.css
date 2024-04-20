@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgb(3, 244, 252),#03fc73);
+}
+.container{
+    background-color: white;
+    width: 350px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+.container .input{
+    text-align: center;
+}
+.container .title{
+padding: 12px 0;
+font-size:30px ;
+text-align:center ;
+}
+.container #location-input{
+ background-color: white;   
+ border: 2.5px solid grey;
+ outline: none;
+ height: 40px;
+ width: 60%;
+}
+.container #location-input:focus{
+    box-shadow: 0px 0px 5px grey;
+}
+.container #btn{
+    width: 15%;
+    font-size: 18px;
+    position: relative;
+    left: -5px;
+    height: 38px;
+    top: 2px;
+    cursor: pointer;
+}
+.container #btn:hover, .container #btn:active{
+    background-color:gray;
+}
+.container .info {
+    text-align: center;
+}
+.container .info .cloud{
+    display: inline-block;
+    font-size: 80px;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 600;
+}
+#weather-desc{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 5px 0px;
+}
+#location{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 5px 0px;
+}
+
+
+
